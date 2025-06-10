@@ -76,7 +76,7 @@ No coding. No CLI. No setup headaches.
 
 ## 🧠 Roadmap
 
-- [ ] Token creation UI
+- [x] Token creation UI
 - [ ] Smart contract templates (Fungible)
 - [ ] NFT minting support
 - [ ] Dashboard for asset management
