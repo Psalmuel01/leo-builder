@@ -13,6 +13,7 @@ import {
   Coins,
   Image
 } from "lucide-react";
+import { ConnectWalletButton } from "./ConnectWallet";
 
 const navigationItems = [
   { name: "Token Creation", href: "#tokens", icon: Coins },
@@ -57,6 +58,7 @@ export const Navbar = () => {
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
+            <ConnectWalletButton />
             <WalletConnect />
           </div>
 
